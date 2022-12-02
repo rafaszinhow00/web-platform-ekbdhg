@@ -1,0 +1,56 @@
+div {
+  width: auto;
+  margin: auto;
+  color: black;
+  background-color: black;
+  padding: 5px;
+  justify-content: flex-end;
+  display: flex;
+  gap: 2px;
+}
+div button {
+  position: relative;
+  width: 50px;
+  border-radius: 100px;
+  padding: 8px;
+  border: none;
+  background-color: gray;
+}
+.mess {
+  fill: white;
+  width: 40px;
+}
+.mess:hover {
+  fill: #1f59d6;
+  background-color: #5874af;
+}
+
+.mess:active {
+  transform: translateY(5px);
+}
+
+.sino {
+  fill: white;
+  width: 37px;
+}
+.sino:hover {
+  fill: #1f59d6;
+  background-color: #5874af;
+}
+
+.sino:active {
+  transform: translateY(5px);
+}
+
+.seta {
+  fill: white;
+  width: 40px;
+}
+.seta:hover {
+  fill: #1f59d6;
+  background-color: #5874af;
+} 
+
+.seta:active {
+  transform: translateY(5px);
+}
